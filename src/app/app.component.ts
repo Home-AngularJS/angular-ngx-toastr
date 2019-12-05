@@ -8,6 +8,7 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class AppComponent {
   name = 'Angular Toastr';
+
   constructor(private toastr: ToastrService) { }
 
   showSuccess() {
@@ -15,16 +16,19 @@ export class AppComponent {
       timeOut: 200000
     });
   }
+
   showError() {
     this.toastr.error('everything is broken', 'Major Error', {
       timeOut: 3000
     });
   }
+
   showWarning() {
     this.toastr.warning('everything is broken', 'Major Error', {
       timeOut: 3000
     });
   }
+
   showInfo() {
     this.toastr.info('everything is broken', 'Major Error', {
       timeOut: 3000

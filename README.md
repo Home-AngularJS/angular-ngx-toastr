@@ -18,7 +18,9 @@ An implementation of Angular 7+
         - https://stackoverflow.com/questions/49194316/override-a-components-default-sass-variables-in-a-different-angular-cli-project
         - https://github.com/scttcper/ngx-toastr
         - скопировать файл-стилей из библиотеки _toastr.css_ в свой проект и подключить его последним в _angular.json_
-        ![3](screenshot-3.png)           
+          и в клвсс _.toast-container .toast_ добавити **opacity: 1;** 
+        ![4](screenshot-4.png)
+        ![3](screenshot-3.png)
 
 ![1](screenshot-1.png)
 
